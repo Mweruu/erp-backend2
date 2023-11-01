@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_od_phone_payment,od.phone.payment,model_od_phone_payment,od_phone_payment.res_groups_phone_payment,1,1,1,1
+access_od_phone_payment_line,od.phone.payment.line,model_od_phone_payment_line,od_phone_payment.res_groups_phone_payment,1,1,1,1
+
+od_phone_payment.access_phone_payment_report,access_phone_payment_report,od_phone_payment.model_phone_payment_report,base.group_user,1,1,1,0
